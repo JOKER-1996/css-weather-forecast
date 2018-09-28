@@ -1,0 +1,150 @@
+* {
+	transition: all .1s ease-in;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	border: 20px solid #2b81ac;
+	background-color: #3399cc;
+	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+}
+
+header {
+	text-align: left;
+	width: 700px;
+	margin: auto auto;
+	color: #fff;
+	padding: 20px 0 0 0;
+}
+
+footer {
+	height: 87.5px;
+	text-align: left;
+	width: 700px;
+	margin: auto auto;
+	color: #fff;
+	padding: 20px 0 0 0;
+}
+
+.container {
+	width: 98%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.container > h2 {
+	padding: 20px 0 20px 0;
+	color: #fff;
+	text-align: left;
+}
+
+ul.blocks {
+	font-size: 0;	
+	width: 700px;
+	margin: 0 auto;	
+}
+
+.container > p {
+	padding: 20px 0 20px 0;
+	color: #fff;
+	text-align: left;
+}
+
+h2 > i {
+	padding-left: 5px;
+}
+
+li {
+	list-style: none;
+	display: inline-table;;
+	background-color: red;
+	font-size: 20px;
+	box-sizing: border-box;
+	color: #fff;
+	text-align: center;
+	height: 100px;
+	font-family: 'LucidaGrande', sans-serif;
+	font-size: 20px;
+	padding: 15px;
+	border: 2.5px solid #fff;
+}
+
+li.list-ls, li.list-sf {
+	width: 50%;
+}
+
+li.list-pr, li.list-bl, li.list-mw, li.list-ta,
+li.list-cr, li.list-ny, li.list-nd, li.list-tk {
+	width: 25%;
+}
+
+li.list-sd {
+	width: 100%;
+}
+
+li.list-ls {
+	background-color: #4fa7d3;
+}
+
+li.list-pr {
+	background-color: #33cccc;
+}
+
+li.list-bl {
+	background-color: #996699;
+}
+
+li.list-mw {
+	background-color: #c24747;
+}
+
+li.list-ta {
+	background-color: #e2674a;
+}
+
+
+li.list-cr {
+	background-color: #ffcc66;
+}
+
+li.list-ny {
+	background-color: #339966;
+}
+
+li.list-nd {
+	background-color: #669999;
+}
+
+li.list-sf {
+	background-color: #cc6699;
+}
+
+li.list-tk {
+	background-color: #a5a5c3;
+}
+
+li.list-sd {
+	background-color: #666699;
+}
+
+.wi {
+	font-size: 30px;
+	padding-left: 5px;
+	transform: translateY(4px);
+	color: rgba(255, 255, 255, 0.4);
+	padding-top: 5px;
+}
+
+span {
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.4);
+}
+
+.blocks:hover li {
+	opacity: .6;
+}
+
+.blocks > li:hover {
+	opacity: 1;
+}
